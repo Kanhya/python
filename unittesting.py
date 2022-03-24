@@ -5,6 +5,12 @@ def add(x, y):
 
     return x+y
 
+def checkDivisibility7(x):
+    if x%7 == 0:
+        return True
+    else:
+        false
+
 class MyApp(unittest.TestCase):
 
     def test_case1(self):
